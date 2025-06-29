@@ -16,7 +16,7 @@ This project automates AWS cost tracking and idle resource detection. It runs da
 
 ## 📌 Architecture
 
-![ChatGPT Image Jun 29, 2025, 11_57_02 AM](https://github.com/user-attachments/assets/f7ef023c-3e29-45c3-91dc-17f391c6ec8b)
+![ChatGPT Image Jun 29, 2025, 11_57_02 AM](https://github.com/user-attachments/assets/cce1b666-b98f-4b44-a7bf-df5d456dd0cc)
 
 ---
 
@@ -43,10 +43,66 @@ This project automates AWS cost tracking and idle resource detection. It runs da
 
 ---
 
-## 📂 Project Structure
+## 🧪 Test it Yourself
 
-```bash
-.
-├── lambda_function.py       # Core logic
-├── IAMPolicy.json           # Permissions for Lambda execution
-└── README.md
+1. **Create Lambda Function**
+
+2. Assign IAM role with:
+
+   * `ec2:Describe*`
+   * `ce:GetCostAndUsage`
+   * `sns:Publish`
+
+3. Create **SNS Topic**, subscribe your email
+
+4. Connect SNS ARN in the code
+
+5. Use **EventBridge** to schedule daily runs
+
+---
+
+## 📌 Why this project?
+
+Recruiters love:
+
+* Cost awareness 💰
+* Automation mindset 🤖
+* Hands-on AWS work 💻
+
+Perfect to showcase on LinkedIn, GitHub, or resume.
+
+---
+
+## ✍️ Author
+
+Built by \[Your Name]
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+````
+
+---
+
+## 🔗 LinkedIn Post (Short + Punchy)
+
+```markdown
+🚀 Just built an **AWS Cost Optimizer Bot**!
+
+This project:
+✅ Identifies unused EC2 & EBS volumes  
+✅ Tracks daily AWS cost via Cost Explorer  
+✅ Sends email reports via SNS  
+✅ Runs automatically every morning with EventBridge
+
+No more logging into the console manually 👀  
+Just wake up to an optimized AWS account 🔁💡
+
+It’s clean, useful, and resume-worthy.
+
+#AWS #Lambda #CostExplorer #DevOps #Projects #CloudComputing #Automation #EventBridge #Python
+````
+
