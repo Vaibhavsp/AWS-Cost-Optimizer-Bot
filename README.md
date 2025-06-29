@@ -75,7 +75,7 @@ Perfect to showcase on LinkedIn, GitHub, or resume.
 
 ## ✍️ Author
 
-Built by \[Your Name]
+Built by \Vaibhav Parekh
 
 ---
 
